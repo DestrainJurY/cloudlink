@@ -64,5 +64,6 @@ if __name__ == "__main__":
     # Initialize SSL support
     # server.enable_ssl(certfile="cert.pem", keyfile="privkey.pem")
 
+    print("server now running on port 1944 inside container")
     # Start the server
     server.run(ip="0.0.0.0", port=1944)
